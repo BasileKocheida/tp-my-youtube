@@ -1,9 +1,17 @@
+.content-darkmode{
+    background-color: black;
+}
+
+.p-darkmode{
+    color: white;
+}
+
 .row{
     display: flex;
     align-items: center;
 }
 nav{
-    margin-bottom: 5vh;
+    padding-bottom: 5vh;
 }
 
 .navbar-brand{
@@ -15,6 +23,12 @@ nav{
 .navbar-brand p{
     margin: 0;
     color: black;
+    font-size: 1.5rem;
+}
+
+.navbar-brand p.p-darkmode{
+    margin: 0;
+    color: white;
     font-size: 1.5rem;
 }
 
