@@ -7,7 +7,7 @@ let btn = document.querySelector('#btn');
 
 let isClicked = false
 
-btn.addEventListener('click', ()=>{
+btn.addEventListener('click', () => {
     if(isClicked == false){
         isClicked = true
         divContent.classList.replace("content", "content-darkmode");
