@@ -4,6 +4,7 @@ const divContent = document.querySelector('.content');
 const nav = document.querySelector('nav');
 const brand = document.querySelector('.brand');
 let btn = document.querySelector('#btn');
+// let btn = document.querySelector('#flexSwitchCheckDefault');
 
 let isClicked = false
 
