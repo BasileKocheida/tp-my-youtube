@@ -4,10 +4,11 @@ const divContent = document.querySelector('.content');
 const nav = document.querySelector('nav');
 const brand = document.querySelector('.brand');
 let btn = document.querySelector('#btn');
+// let btn = document.querySelector('#flexSwitchCheckDefault');
 
 let isClicked = false
 
-btn.addEventListener('click', ()=>{
+btn.addEventListener('click', () => {
     if(isClicked == false){
         isClicked = true
         divContent.classList.replace("content", "content-darkmode");
